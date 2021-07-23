@@ -35,9 +35,17 @@ section{
     display:flex;
     flex-direction: column;
     align-self: center;
-    margin-top:1.25rem ;
-    border:1px solid red;
+    margin-top:3rem ;
+  /*  border:1px solid red;*/
     text-align: center;
+    margin-left: 1.25rem;
+    margin-right:1.25rem;
+}
+
+.introduction{
+    font-family: comfortaa; 
+ 
+    font-size: 1.5rem;
 }
 
 .introduction img{
@@ -52,7 +60,12 @@ section{
     flex-basis: 15rem;
     border-radius: 100%;
     align-self: center;
-    opacity: 0.75;
+    opacity: 0.85;
+}
+
+.introduction article{
+  /*  border: 1px solid red;*/
+    margin-top: 1.25rem;
 }
 
 
